@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --cor-1: #5c7aff;
+    --cor-2: #2ab7ca;
+    --cor-3: #13293d;
+    --cor-4: #403d58;
+
+    --font-1: "Inter", sans-serif;
+    --font-2:"Poppins", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-family: var(--font-1);
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient(to right, #09233d, #1a61a8);
+    color: white;
+    padding: 100px 200px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4.5vw;
+    font-family: var(--font-2);
+    font-weight: normal;
+}
+
+header p {
+    padding: 10px 0px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px;
+    padding: 5px 10px;
+    transition: 0.5s;
+}
+
+header a:hover {
+    text-decoration: underline;
+    background-color: #403d58;
+    border-radius: 10px;
+    color: var(--cor-1);
+}
+
+.destaque {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+main h1 {
+    font-family: var(--font-2);
+    margin-bottom: 30px;
+    color: var(--cor-3);
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+main h2 {
+    font-family: var(--font-2);
+    color: var(--cor-3);
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+main p {
+   margin-bottom: 50px; 
+   line-height: 2em;
+   font-size: 1.1em;
+}
+
+.meio {
+    text-align: center;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+main table, th, td {
+    margin: 50px auto;
+    width: 1000px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    line-height: 2em;
+}
+
+main thead {
+    background-color: gray;
+}
+
+main tbody {
+    background-color: lightgray;
+}
+
+.centro {
+    text-align: center;
+}
+
+.responsivo {
+    overflow-x: auto;
+}
+
+aside {
+    margin-top: 40px;
+    background-image: linear-gradient(to right, #09233d, #124579);
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+aside h3 {
+    font-family: var(--font-2);
+    font-size: 1.5em;
+    text-align: center;
+}
+
+aside p {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor-1);
+    background-color: var(--cor-4);
+    padding: 2px 6px;
+    border-radius: 5px;
+}
