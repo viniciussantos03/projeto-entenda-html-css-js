@@ -97,9 +97,13 @@ main p {
    font-size: 1.1em;
 }
 
+img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
 .meio {
     text-align: center;
-    max-width: 100%;
     margin-bottom: 50px;
 }
 
